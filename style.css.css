@@ -1,0 +1,437 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+  
+  body {
+	font-family: sans-serif;
+}
+  
+  header {
+	width: 100%;
+	height: 100vh;
+}
+  
+  nav {
+	background:black;
+	display: flex;
+	width: 100%;
+	height: 10vh;
+	align-items: center;
+}
+  
+ .logo {
+	width: 35%;
+	padding-left: 150px;
+	color: white;
+	font-size: 200%;
+}
+.logo-title{
+	font-family:AntipastoPro_ExtraBold_trial;
+
+}
+  
+  .list-items {
+	display: flex;
+	list-style: none;
+	width: 50%;
+	justify-content: space-around;
+}
+  
+.link {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	transition: 0.4s;
+}
+  
+.link:hover {
+	color: #db5dab;
+}
+  
+.nav-btns {
+	width: 25%;
+	font-size: 20px;
+}
+  
+  .btn-nav-i {
+	color: white;
+	float: right;
+	padding-right: 10px;
+	transition: 0.4s;
+}
+  
+.btn-nav-i:hover {
+	color: #db5dab;
+}
+  
+.main {
+	background: black;
+	position: relative;
+	height: 90vh;
+	width: 100%;
+}
+.fa {
+	padding: 200px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+  }
+
+.main-collection{
+	position: relative;
+	height: 90vh;
+	width: 100%;
+}
+.main-left {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 45%;
+}
+.main-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 55%;
+	background: black;
+}
+  
+.main-right img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	animation: animation 5s forwards;
+	animation-delay: 1s;
+	opacity: 0;
+}
+  
+@keyframes animation {
+	0% {
+	  opacity: 0;
+	}
+  
+	100% {
+	  opacity: 1;
+	}
+}
+  
+.social-media {
+	position: absolute;
+	height: 100%;
+	width: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+  
+.social-media::before {
+	content: "";
+	position: absolute;
+	width: 2px;
+	height: 30%;
+	background: black;
+	top: 20px;
+}
+.social-media::after {
+	content: "";
+	position: absolute;
+	width: 2px;
+	height: 30%;
+	background: black;
+	bottom: 20px;
+}
+  
+.s-btn {
+	color: white;
+	margin-top: 20px;
+	transition: 0.4s;
+	font-size: 30px;
+}
+.fa-facebook-f	{
+	color:#4267B2;
+}
+.fa-twitter{
+	color: #00acee;
+}
+.fa-instagram{
+	color: #f09433; 
+	color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+ 
+}
+.fa-facebook:hover{
+	color: #db5dab;
+	transition: .5s;
+}
+.fa-twitter:hover{
+	color: #db5dab;
+	transition: .5s;
+}
+.fa-instagram:hover{
+	color: #db5dab;
+	transition: .5s;
+}
+  .s-btn:hover {
+	color: #db5dab;
+  }
+  
+.banner {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+  
+.f-text h1 {
+	text-align: center;
+	font-size: 4rem;
+	letter-spacing: 0.5rem;
+	color: white;
+  }
+  
+.f-text span {
+	color: #db5dab;
+  }
+  
+.btn {
+	margin-top: 20px;
+	text-decoration: none;
+	color: white;
+	border: solid 1px white;
+	padding: 20px 40px;
+	transition: 0.4s;
+}
+  
+.btn:hover {
+	background: #db5dab;
+}
+
+* {
+	box-sizing: border-box;
+  }
+  
+  * {
+	box-sizing: border-box;
+  }
+  
+  * {
+	box-sizing: border-box;
+  }
+  
+  * {
+	box-sizing: border-box;
+  }
+  
+  * {
+	box-sizing: border-box;
+  }
+
+
+  
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+input{
+	display: none;
+}
+.container {
+	width: 100%;
+	text-align: center;
+}
+h1{
+	font-weight: normal;
+	font-size: 50px;
+	position: relative;
+	margin: 40px 0; 
+}
+h1::before{
+   content: '';
+   position: absolute;
+   width: 100px;
+   height:  3px;
+   background-color:#d44dc9;
+   bottom: -10px;
+   left: 50%;
+   transform: translateX(-50%);
+   animation: animate 4s linear infinite;
+}
+@keyframes animate{
+
+	0%{
+		width: 100px;
+		
+	}
+	50%{
+		width: 200px;
+		;
+	}
+	100%{
+		width: 100px;
+		
+	}
+}
+.top-content{
+	background-color: transparent;
+	width: 90%;
+	margin: 0 auto 20px auto;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #d44dc9;
+
+}
+h3{
+	height: 100%;
+	background-color: #d44dc9;
+	line-height: 60px;
+	padding: 0 50px;
+	color: black;
+}
+label{
+	 display: inline-block;
+	 height: 100%;
+	 padding: 0 5px;
+	 margin: 0 30px;
+	 line-height: 60px;
+	 font-size: 18px;
+	 color: black;
+    cursor: pointer;
+	transition: .5s;
+}
+label:hover{
+	color: #d44dc9;
+}
+.Product{
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 20px;
+}
+.pic{
+	position: relative;
+	height: 150;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #ee51cc;
+	cursor: pointer;
+}
+.pic img{
+     width: 100%;
+	 height: 100%;
+	 border-radius: 10px; 
+	 transition: .5s;
+}
+@font-face {
+    font-family: Streetwear;
+    src: url("streetwear/Streetwear.otf") format("opentype");
+}
+@font-face {
+    font-family: AntipastoPro_trial;
+    src: url("antipasto/AntipastoPro_trial.ttf") format("opentype");
+}
+@font-face {
+    font-family: AntipastoPro_ExtraBold_trial;
+    src: url("antipasto/AntipastoPro-ExtraBold_trial.ttf") format("opentype");
+}
+.product-name{
+	font-family: AntipastoPro_trial;
+	position: absolute;
+	bottom: 0px;
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+	color: #030555;
+	border-radius: 10px;
+}
+.pic:hover .product-name {
+	color:red;
+	transition: .5s;
+}
+#pic1::before{
+	content:"Product";
+}
+.pic::before{
+	content:"Product";
+	position: absolute;
+	top:15%;
+	right:20%;
+	transform: translate(-50, -50);
+	color:#d34a8e;
+	font-size: 45px;
+	font-weight: bold;
+	width: 100%;
+	margin-top: -50px;
+	opacity: 0;
+	transition: .3s;
+	transition-delay: .2s;
+	z-index: 1;
+}
+.pic:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	right:0  ;
+	border-radius: 10px;
+	height: 0;
+	background-color: rgb(0, 0,0,.4);
+	transition: .3s;
+}
+.pic:hover::after{
+	height: 100%;
+}
+.pic:hover::before{
+    margin-top: 0;
+	opacity: 1;
+}
+#check1:checked ~ .container .Product .pic{
+	opacity: 1;
+	transform: scale(1);
+	position: relative;	
+	transition: .3s;
+}
+#check2:checked ~ .container .Product .Tie-Dye{
+	transform: scale(1);
+	opacity: 1;
+	position: relative;	
+
+}
+#check2:checked ~ .container .Product .Tie-Dye,
+#check2:checked ~ .container .Product .Tie-Dye{
+    opacity: 0;
+	transform: scale(0);
+	position: absolute;
+	transition: .3s;
+}
+#check3:checked ~ .container .Product .Shoes{
+	transform: scale(1);
+	opacity: 1;
+	position: relative;	
+
+}
+#check3:checked ~ .container .Product .Shoes,
+#check3:checked ~ .container .Product .Shoes{
+    opacity: 0;
+	transform: scale(0);
+	position: absolute;
+	transition: .3s;
+}
+
+
+

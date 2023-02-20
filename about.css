@@ -1,0 +1,212 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+nav {
+	background:rgb(12, 12, 12);
+	display: flex;
+	width: 100%;
+	height: 10vh;
+	align-items: center;
+}
+  
+ .logo {
+	width: 20%;
+    font-family: sans-serif;
+    font-size: 200%;
+	padding-left: 150px;
+	color: rgb(245, 239, 239);
+}
+.logo-title{
+	font-family:AntipastoPro_ExtraBold_trial;
+
+}
+.main-collection{
+	position: relative;
+	height: 90vh;
+	width: 100%;
+}
+  .list-items {
+	display: flex;
+	list-style: none;
+	width: 40%;
+	justify-content: space-around;
+}
+  
+.link {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	transition: 0.4s;
+}
+  
+.link:hover {
+	color: #ad2378;
+}
+  
+.nav-btns {
+	width: 25%;
+	font-size: 20px;
+}
+  
+.btn-nav-i {
+	color: rgb(7, 7, 7);
+	float: right;
+	padding-right: 10px;
+	transition: 0.4s;
+}
+  
+.btn-nav-i:hover {
+	color: #db5dab;
+}
+.f-text h1 {
+	text-align: center;
+	font-size: 4rem;
+	letter-spacing: 0.5rem;
+	color: white;
+  }
+  
+.f-text span {
+	color: #db5dab;
+  }
+
+  body {
+    font-family: "roboto";
+    color: #fff;
+    
+  }
+  
+  section {
+    height: 100%;
+    padding: 2em 0;
+  }
+  
+  .section1 {
+    background-color: #ad2378;
+    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+    padding-bottom: 10%;
+  }
+  
+
+  
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 0;
+  }
+  
+  .img-wrapper {
+    width: 100%;
+  }
+  
+  .img{
+    width: 50px;
+    height: 50px;
+    
+    margin: 0 auto;
+  }
+  
+  .text-wrapper{
+    width: 50%;
+  }
+  
+  .text {
+    margin-bottom: 1em;
+  }
+  
+  .btn-wrapper {
+    margin-top: 2em;
+  }
+  
+  .btn {
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid rgb(8, 8, 8);
+    padding: 0.5em 2em;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: rgb(17, 17, 17);
+  }
+  .social-media {
+    position: absolute;
+    height: 100%;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+    
+  .social-media::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 30%;
+    background: white;
+    top: 20px;
+  }
+  .social-media::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 30%;
+    background: white;
+    bottom: 20px;
+  }
+    
+  .s-btn {
+    color: white;
+    margin-top: 20px;
+    transition: 0.4s;
+    font-size: 30px;
+  }
+  .fa-facebook{
+    color:blue;
+  }
+  .fa-twitter{
+    color: #00acee;
+  }
+  .fa-instagram{
+    color: #f09433; 
+    color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+   
+  }
+  .fa-facebook:hover{
+    color: #db5dab;
+    transition: .5s;
+  }
+  .fa-twitter:hover{
+    color: #db5dab;
+    transition: .5s;
+  }
+  .fa-instagram:hover{
+    color: #db5dab;
+    transition: .5s;
+  }
+    .s-btn:hover {
+    color: #db5dab;
+    }
+    
